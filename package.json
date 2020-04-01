@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "jasmine"
   },
   "author": "",
@@ -12,5 +13,8 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "jasmine": "^3.5.0"
+  },
+  "engines": {
+  	"node": "12.x"
   }
 }
