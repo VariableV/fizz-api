@@ -1,12 +1,12 @@
 const express = require('express');
 const bodyparser = require('body-parser');
-const cors = require('cors');
+//const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 80;
 
 app.use(bodyparser.urlencoded({ extended: true }));
 app.use(bodyparser.json());
-app.use(cors());
+//app.use(cors());
 
 let fizzbuzz=(n)=>{
     var result = [];
